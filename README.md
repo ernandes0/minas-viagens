@@ -7,3 +7,7 @@
 3. Baixe este projeto e descompacte o conteudo em uma pasta. Entre na pasta.
 4. Execute `pipenv shell` to run an virtual enviroment
 5. Execute: `streamlit run app.py`
+
+
+## Como rodar o projeto:
+**PARA ACESSAR REMOTAMENTE: https://ernandes0-minas-viagens-home-fuejw1.streamlit.app/**
