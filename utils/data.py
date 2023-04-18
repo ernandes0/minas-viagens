@@ -8,7 +8,7 @@ class Data:
         self.DATA_ESTADO_URL = ('data/dm_estado.csv')
 
     def get_data_diaria(self):
-        data = pd.read_parquet(self.DATA_DIARIA_URL, sep = ';', engine = 'fastparquet')
+        data = pd.read_parquet(self.DATA_DIARIA_URL, engine = 'fastparquet')
         lowercase = lambda x: str(x).lower()
         data.rename(lowercase, axis='columns', inplace = True)
         return data
